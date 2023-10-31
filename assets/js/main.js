@@ -131,7 +131,7 @@ const ungeradeZahlen = zahlenArr.filter((value) =>
 })
 console.log(ungeradeZahlen);
 
-console.log("%c filter-level-1_9", "color: blue; background-color: gold");
+console.log("%c filter-level-1_8 2", "color: blue; background-color: gold");
 
 const woerter = ["Banane", "Kaktus", "Flausch", "Ente", "Apfel", "Auto", "Giraffe", "Schmetterling", "Krokodil", "Lampe"];
 
@@ -150,7 +150,7 @@ const sixOrLessLetters2 = woerter.filter((string) => string.length <= 6 ? string
 console.log("mit ES6 short hand:")
 console.log(sixOrLessLetters2);
 
-console.log("%c filter-level-2", "color: blue; background-color: gold");
+console.log("%c filter-level-1_8 4", "color: blue; background-color: gold");
 
 const zahlen = [12, 25, 7, 18, 30, 5];
 
@@ -162,7 +162,7 @@ const multiTwo = lessThanTwenty.map((value) => value * 2);
 
 console.log(multiTwo);
 
-console.log("%c filter-level-2_1", "color: blue; background-color: gold");
+console.log("%c filter-level-1_8 3", "color: blue; background-color: gold");
 
 const heroArr = ["Superman", "Batman", undefined, , "Wonder Woman", "Spider-Man", "Black Widow", "Iron Man", "Thor", "Catwoman", ,null];
 
